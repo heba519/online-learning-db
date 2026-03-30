@@ -81,7 +81,7 @@ Example: Instructor data is stored separately, not inside Courses
 
 The full schema is implemented in:
 
-📄 [Database Schema](./schema/create_tables.sql)
+📄 [Database Schema](./create_tables.sql)
 
 This file includes:
 
@@ -93,7 +93,7 @@ Relationships
 
 The file:
 
-📄 [SQL Joins](./queries/joins.sql)
+📄 [SQL Joins](./joins.sql)
 
 Includes examples such as:
 
@@ -110,7 +110,7 @@ JOIN Instructors i ON c.instructor_id = i.instructor_id;
 
 Indexes are added to improve query performance:
 
-📄 [Indexes SQL File](./indexes/indexing.sql)
+📄 [Indexes SQL File](./indexing.sql)
 
 Key indexing decisions:
 Emails (fast login/search)
@@ -128,4 +128,4 @@ Students ──< Enrollments >── Courses >── Lessons
 └──< Payments >── Courses
 └──< Reviews >── Courses
 
-📄 [ERD image](./erd/erd.png)
+📄 [ERD image](./erd.png)
